@@ -42,6 +42,6 @@ pip install -r requirements.txt
 ```
 ## 6. Run script
 ```bash 
-python main.py -a YOUR_AUTHORIZATION_TOKEN -P PROFILE_ID
+python main.py -a AUTHORIZATION_TOKEN -P PROFILE_ID
 ```
 
