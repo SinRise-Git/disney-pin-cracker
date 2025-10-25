@@ -53,8 +53,8 @@ class PinBruteforcer:
                 """,
                 "variables": {
                     "input": {
-                        "entryPin": f"{current_code}",
-                        "profileId": f"{self.profile_id}",
+                        "entryPin": current_code,
+                        "profileId": self.profile_id,
                     }
                 },
                 "operationName": "switchProfile",
