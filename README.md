@@ -3,13 +3,11 @@ A Python script to try all 10,000 codes for a Disney+ account until it finds the
 
 ## Argparses 
 * **-a**:
-
   While logged into Disney+ on [www.disneyplus.com](https://www.disneyplus.com), open your browser’s developer tools, go to the **Console** tab, and run the following JavaScript snippet to retrieve your authorization token from localStorage:
   ```javascript
   console.log(JSON.parse(localStorage.getItem('__bam_sdk_access--disney-svod-3d9324fc_prod')).context.token);
   ```
 * **-p**:
-
   Navigate to the Disney+ profile you want to brute force. The profile ID is part of the URL in the PIN entry page:
   `https://www.disneyplus.com/en-gb/enter-pin/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX`
   Copy the **XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX** portion as the profile ID.
