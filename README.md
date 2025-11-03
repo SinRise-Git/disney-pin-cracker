@@ -34,7 +34,7 @@ venv\Scripts\activate
 ```
 **Linux**
 ```bash
-source myenv/bin/activate
+source venv/bin/activate
 ```
 ## 5. Downlaod required packages 
 ```bash 
